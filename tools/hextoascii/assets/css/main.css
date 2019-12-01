@@ -1,0 +1,34 @@
+.wrapper {
+  width: 85%;
+  grid-template-columns: 3fr 1fr 3fr;
+}
+
+div {
+  width: 100%;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+}
+
+input[type=text] {
+  width: 100%;
+  height: 200px;
+  border: 2px solid #777;
+  background-color: #3a3a3a;
+  color: #fff;
+  font-family: "Roboto Mono", monospace;
+  border-radius: 15px;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  background-color: #34ebc0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+}
