@@ -1,6 +1,6 @@
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   grid-gap: 40px;
   margin: 0 auto;
@@ -74,20 +74,4 @@
 .tool-thumb .redirect:hover {
   box-shadow: 0 2px 5px #111;
   width: 55%;
-}
-
-@media only screen and (min-width: 1366px) {
-
-  .wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
-
-}
-
-@media only screen and (min-width: 1280px) {
-
-  .wrapper {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
 }
